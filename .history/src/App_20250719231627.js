@@ -10,7 +10,6 @@ function App() {
                 <Routes>
                     {publicRoutes.map((route, index) => {
                         let Layout = DefaultLayout;
-
                         if (Layout === null) {
                             Layout = Fragment;
                         }
